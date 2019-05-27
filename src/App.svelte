@@ -142,9 +142,9 @@
   }
 
   function drawNet() {
-    for (let i = 0; i < canvasDims.h; i += 40) {
+    for (let i = 10; i < canvasDims.h; i += 40) {
       canvasContext.fillStyle = "white";
-      canvasContext.fillRect(canvasDims.w -1, i, 2, 20);
+      canvasContext.fillRect((canvasDims.w /2) -1, i, 2, 20);
     }
   }
 
