@@ -1,4 +1,4 @@
-# Super simple pong game built using html canvas and svelte
+# Super simple tennis game built using html canvas and svelte
 
 Made by following along with https://www.udemy.com/code-your-first-game/
 
