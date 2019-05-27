@@ -185,7 +185,13 @@
 
 </svelte:head>
 
-<!-- <div class="row">
+<canvas
+  id="game"
+  width={canvasDims.w}
+  height={canvasDims.h}
+  on:mousemove={movePlayerOne} />
+
+  <div class="row">
   <div class="input-field col m3">
     <input placeholder="Ball Speed" id="fps" type="text" bind:value={fps} />
     <label for="fps">Ball Speed</label>
@@ -193,10 +199,4 @@
   <div class="input-field col m3">
     <button type="button" class="btn" on:click={startGame}>Reset</button>
   </div>
-</div> -->
-
-<canvas
-  id="game"
-  width={canvasDims.w}
-  height={canvasDims.h}
-  on:mousemove={movePlayerOne} />
+</div>
